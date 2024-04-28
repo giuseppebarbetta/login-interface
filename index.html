@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple Login</title>
+  </head>
+  <body>
+    <main>
+      <div class="bckLogo"></div>
+      <img src="./assets/login.png" alt="login-icon" class="login-icon" />
+      <h1>Welcome Back 😃</h1>
+      <div class="form">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Email" />
+        <label for="password">Password: </label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+        <button class="loginBtn">
+          Log In
+          <i class="bx bxs-chevron-right"></i>
+        </button>
+        <button class="loginGoogle">
+          <img src="./assets/google-icon.svg" alt="google icon" /> Log In with
+          Google
+        </button>
+      </div>
+      <div class="createSection">
+        <a href="./singup.html">Newbie? <sapn>Create Account</sapn></a>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
